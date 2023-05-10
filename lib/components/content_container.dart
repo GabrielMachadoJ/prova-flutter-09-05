@@ -33,6 +33,7 @@ class _ContentContainerState extends State<ContentContainer> {
           ),
           padding: const EdgeInsets.all(15.0),
           child: Row(
+            crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Expanded(
                 child: Column(
